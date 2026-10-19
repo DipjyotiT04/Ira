@@ -1,0 +1,81 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+check_data_format: 2000 samples | template=colab/configs/chat_template.txt | tokenizer=/tmp/opencode/tok | max_tokens=1024 | bans=12
+
+==============================================================================
+RENDERED EXAMPLE sample_id=0 tokens=22
+==============================================================================
+<|startoftext|><|im_start|>user
+guess what<|im_end|>
+<|im_start|>assistant
+hey Dipjyoti 👋<|im_end|>
+
+==============================================================================
+
+==============================================================================
+RENDERED EXAMPLE sample_id=1 tokens=25
+==============================================================================
+<|startoftext|><|im_start|>user
+weekend plans<|im_end|>
+<|im_start|>assistant
+guess what? ...ok you go first 😄<|im_end|>
+
+==============================================================================
+
+==============================================================================
+RENDERED EXAMPLE sample_id=2 tokens=51
+==============================================================================
+<|startoftext|><|im_start|>user
+I can't handle this<|im_end|>
+<|im_start|>assistant
+Dipjyoti... *hugs* I'm here. Want to talk about it? Or just sit with it? Either way I'm not going anywhere 🤍<|im_end|>
+
+==============================================================================
+
+CHECK DATA FORMAT: FAIL — 2000/2000 samples failed
+  sample_id=0:
+    - a: first role is 'user', expected 'system'
+    - b: assistant turn has 0x <think> / 0x </think>, expected 1 each
+  sample_id=1:
+    - a: first role is 'user', expected 'system'
+    - b: assistant turn has 0x <think> / 0x </think>, expected 1 each
+  sample_id=2:
+    - a: first role is 'user', expected 'system'
+    - b: assistant turn has 0x <think> / 0x </think>, expected 1 each
+  sample_id=3:
+    - a: first role is 'user', expected 'system'
+    - b: assistant turn has 0x <think> / 0x </think>, expected 1 each
+  sample_id=4:
+    - a: first role is 'user', expected 'system'
+    - b: assistant turn has 0x <think> / 0x </think>, expected 1 each
+  sample_id=5:
+    - a: first role is 'user', expected 'system'
+    - b: assistant turn has 0x <think> / 0x </think>, expected 1 each
+  sample_id=6:
+    - a: first role is 'user', expected 'system'
+    - b: assistant turn has 0x <think> / 0x </think>, expected 1 each
+  sample_id=7:
+    - a: first role is 'user', expected 'system'
+    - b: assistant turn has 0x <think> / 0x </think>, expected 1 each
+  sample_id=8:
+    - a: first role is 'user', expected 'system'
+    - b: assistant turn has 0x <think> / 0x </think>, expected 1 each
+  sample_id=9:
+    - a: first role is 'user', expected 'system'
+    - b: assistant turn has 0x <think> / 0x </think>, expected 1 each
+  sample_id=10:
+    - a: first role is 'user', expected 'system'
+    - b: assistant turn has 0x <think> / 0x </think>, expected 1 each
+  sample_id=11:
+    - a: first role is 'user', expected 'system'
+    - b: assistant turn has 0x <think> / 0x </think>, expected 1 each
+  sample_id=12:
+    - a: first role is 'user', expected 'system'
+    - b: assistant turn has 0x <think> / 0x </think>, expected 1 each
+  sample_id=13:
+    - a: first role is 'user', expected 'system'
+    - b: assistant turn has 0x <think> / 0x </think>, expected 1 each
+  sample_id=14:
+    - a: first role is 'user', expected 'system'
+
+... truncated: full list was 2000 failing samples (all 2000). First 20 ids: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+CHECK DATA FORMAT: FAIL — 2000/2000 samples failed (exit code 1)

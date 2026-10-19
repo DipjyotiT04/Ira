@@ -1,0 +1,37 @@
+[
+  {
+    "filename": "sha256-59bb50d8116b6a1f9bfbb940d6bb946a05554e591e30c8c2429ed6c854867ecb",
+    "size_bytes": 3827819904,
+    "sha256": "59bb50d8116b6a1f9bfbb940d6bb946a05554e591e30c8c2429ed6c854867ecb",
+    "architecture": "llama",
+    "block_count": 32
+  },
+  {
+    "filename": "sha256-772f510b95588aeb9fbd2298b2b647bceba48aceb05e3a26ff14812eb1f6dc14",
+    "size_bytes": 483,
+    "sha256": "772f510b95588aeb9fbd2298b2b647bceba48aceb05e3a26ff14812eb1f6dc14",
+    "architecture": null,
+    "block_count": null
+  },
+  {
+    "filename": "sha256-8893e08fa9f91f7dc39e24d27bdfaece4e9c86bb3269293ff8cea6cba98c872d",
+    "size_bytes": 59,
+    "sha256": "8893e08fa9f91f7dc39e24d27bdfaece4e9c86bb3269293ff8cea6cba98c872d",
+    "architecture": null,
+    "block_count": null
+  },
+  {
+    "filename": "sha256-8972a96b8ff1957ca24ff839aeb54411e6849de68609857a3fa17a4e78114247",
+    "size_bytes": 297,
+    "sha256": "8972a96b8ff1957ca24ff839aeb54411e6849de68609857a3fa17a4e78114247",
+    "architecture": null,
+    "block_count": null
+  },
+  {
+    "filename": "sha256-a3a0e9449cb691a12f4de1d03725fd41326614fdeaf5d80b28c51187da0bed0e",
+    "size_bytes": 13760,
+    "sha256": "a3a0e9449cb691a12f4de1d03725fd41326614fdeaf5d80b28c51187da0bed0e",
+    "architecture": null,
+    "block_count": null
+  }
+]

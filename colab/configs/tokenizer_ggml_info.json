@@ -1,0 +1,27 @@
+{
+  "source_url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking/raw/main/tokenizer.json",
+  "fetch_date_utc": "2026-10-18 18:47:05 UTC",
+  "tokenizer_class": "PreTrainedTokenizerFast",
+  "model_type": "BPE",
+  "byte_fallback": false,
+  "pre_tokenizer": {
+    "type": "Sequence",
+    "pretokenizers": [
+      {
+        "type": "Split",
+        "pattern": {
+          "Regex": "(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\\r\\n\\p{L}\\p{N}]?\\p{L}+|\\p{N}{1,3}| ?[^\\s\\p{L}\\p{N}]+[\\r\\n]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+"
+        },
+        "behavior": "Isolated",
+        "invert": false
+      },
+      {
+        "type": "ByteLevel",
+        "add_prefix_space": false,
+        "trim_offsets": true,
+        "use_regex": false
+      }
+    ]
+  },
+  "ggml_parity_note": "No tokenizer.model (404). tokenizer.json is ByteLevel-BPE (GPT-2 style), byte_fallback=false. For GGUF: no BOS duplication expected, byte-level pre-tokenizer must match llm5 tokenizer.ggml.pre setting."
+}

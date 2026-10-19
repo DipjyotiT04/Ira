@@ -1,0 +1,19 @@
+models/*
+!models/Modelfile.ira
+*.gguf
+*.safetensors
+*.bin
+data/raw/
+memory/*.db
+__pycache__/
+outputs/
+*.pyc
+.env
+.vscode/
+.idea/
+.DS_Store
+.directory
+.ipynb_checkpoints/
+# build artifacts (regenerate, don't commit)
+ira_colab.zip
+eval/check_data_format_output.txt

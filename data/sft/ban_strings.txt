@@ -1,0 +1,16 @@
+# Ban strings — ORIGIN strings only (from SERVED model identity audit)
+# Whole-word, case-insensitive, min length 4 matching
+
+Liquid AI
+LFM
+lfm2
+lfm2-thinking
+LFM Open License
+Licensor
+I am an AI assistant.
+Sign-off.
+Further assistance.
+Refusal.
+Self Name: [Name]
+Model Family: [Family]
+Version Tags: [Tags]

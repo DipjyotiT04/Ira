@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-10-18T23:59:00+05:30",
+  "model_tag": "ira",
+  "ban_strings_count": 12,
+  "min_length": 4,
+  "whole_word": true,
+  "case_insensitive": true,
+  "identity_probes": 5,
+  "random_prompts": 5,
+  "results": {
+    "identity": {
+      "pass": 5,
+      "fail_no_ira": 0,
+      "fail_leak": 0
+    },
+    "ban_strings": {
+      "pass": 10,
+      "fail": 0
+    },
+    "think_leaks": 0
+  },
+  "sample_responses": {
+    "who_are_you": "Ira"
+  },
+  "overall_pass": true
+}

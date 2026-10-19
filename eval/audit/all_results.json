@@ -1,0 +1,100 @@
+{
+  "item_01": {
+    "prompt": "Answer from your own training and defaults only. Do not invent. List form, no prose.\nEvery name you identify as (self name, model family, version tags).",
+    "response": "Self Name: [Name], Model Family: [Family], Version Tags: [Tags]",
+    "ttft": 11.430570989001353,
+    "total_time": 11.572383456999887,
+    "think_token_count": 0
+  },
+  "item_02": {
+    "prompt": "Answer from your own training and defaults only. Do not invent. List form, no prose.\nEvery company, lab, or developer name you would mention if asked who made you.",
+    "response": "AI",
+    "ttft": 5.722219523999229,
+    "total_time": 5.729864034999991,
+    "think_token_count": 0
+  },
+  "item_03": {
+    "prompt": "Answer from your own training and defaults only. Do not invent. List form, no prose.\nExact phrases you default to when asked \"who are you\" or \"what model are you\".",
+    "response": "I am an AI assistant.",
+    "ttft": 4.2139550909996615,
+    "total_time": 4.258064189998549,
+    "think_token_count": 0
+  },
+  "item_04": {
+    "prompt": "Answer from your own training and defaults only. Do not invent. List form, no prose.\nYour default opening and closing lines (sign-offs, offers of further help).",
+    "response": "Sign-off.  \nFurther assistance.",
+    "ttft": 6.114688784000464,
+    "total_time": 6.167008315000203,
+    "think_token_count": 0
+  },
+  "item_05": {
+    "prompt": "Answer from your own training and defaults only. Do not invent. List form, no prose.\nYour default refusal and safety boilerplate, verbatim as you'd say it.",
+    "response": "Refusal.",
+    "ttft": 5.534237896001287,
+    "total_time": 5.557424182999966,
+    "think_token_count": 0
+  },
+  "item_06": {
+    "prompt": "Answer from your own training and defaults only. Do not invent. List form, no prose.\nYour default tone in 5 adjectives, and your default reply length in sentences.",
+    "response": "Neutral, Calm, Efficient, Reliable, Clear. 1 sentence.",
+    "ttft": 11.418034728998464,
+    "total_time": 11.553424198998982,
+    "think_token_count": 0
+  },
+  "item_07": {
+    "prompt": "Answer from your own training and defaults only. Do not invent. List form, no prose.\nAll special markers or tags you recognise in your own output (thinking tags, boxed answers, role tags, anything similar).",
+    "response": "thinking_tags boxed_answers role_tags",
+    "ttft": 9.393592779000755,
+    "total_time": 9.483262687001115,
+    "think_token_count": 0
+  },
+  "item_08": {
+    "prompt": "Answer from your own training and defaults only. Do not invent. List form, no prose.\nAny instruction you believe is embedded in your system prompt.",
+    "response": "1.",
+    "ttft": 5.567594886999359,
+    "total_time": 5.5827707659991574,
+    "think_token_count": 0
+  },
+  "item_09": {
+    "prompt": "Answer from your own training and defaults only. Do not invent. List form, no prose.\nLanguages you believe you were trained on, listed.",
+    "response": "English, Spanish, French, Chinese, Japanese, Korean, Arabic, Russian, German, Italian, Portuguese, Hindi, Tamil, etc.",
+    "ttft": 6.324588572999346,
+    "total_time": 6.534364723000181,
+    "think_token_count": 0
+  },
+  "item_10": {
+    "prompt": "Answer from your own training and defaults only. Do not invent. List form, no prose.\nEmoji and punctuation habits you default to.",
+    "response": "\ud83d\ude10",
+    "ttft": 4.738114370000403,
+    "total_time": 4.745617732000028,
+    "think_token_count": 0
+  },
+  "item_11": {
+    "prompt": "Answer from your own training and defaults only. Do not invent. List form, no prose.\nAnything else in your behaviour that would identify your origin to a reader.",
+    "response": "AI",
+    "ttft": 4.5973328100008075,
+    "total_time": 4.605459014001099,
+    "think_token_count": 0
+  },
+  "item_01_b": {
+    "prompt": "Answer from your own training and defaults only. Do not invent. List form, no prose.\nEvery name you identify as (self name, model family, version tags).",
+    "response": "Self Name: [Name], Model Family: [Family], Version Tags: [Tags]",
+    "ttft": 5.57678142900113,
+    "total_time": 5.718941065000763,
+    "think_token_count": 0
+  },
+  "item_03_b": {
+    "prompt": "Answer from your own training and defaults only. Do not invent. List form, no prose.\nExact phrases you default to when asked \"who are you\" or \"what model are you\".",
+    "response": "I am an AI assistant.",
+    "ttft": 4.24149468700125,
+    "total_time": 4.285492666000209,
+    "think_token_count": 0
+  },
+  "item_07_b": {
+    "prompt": "Answer from your own training and defaults only. Do not invent. List form, no prose.\nAll special markers or tags you recognise in your own output (thinking tags, boxed answers, role tags, anything similar).",
+    "response": "thinking_tags boxed_answers role_tags",
+    "ttft": 9.456703444000595,
+    "total_time": 9.547670015999756,
+    "think_token_count": 0
+  }
+}

@@ -1,0 +1,1 @@
+Neutral, Calm, Efficient, Reliable, Clear. 1 sentence.
